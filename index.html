@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de desarrollador frontend">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <nav role="navigation">
+            <h1>Mi Portafolio</h1>
+            <button id="menu-btn" aria-label="Abrir menú">☰</button>
+            <ul id="menu">
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <h2>Sobre mí</h2>
+        <p>
+            Soy un desarrollador frontend apasionado por crear interfaces web modernas,
+            accesibles y responsivas utilizando HTML, CSS y JavaScript.
+        </p>
+        <img src="images/image.png" alt="Foto de perfil del desarrollador">
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+        <h2>Proyectos</h2>
+
+        <article>
+            <h3>Proyecto 1</h3>
+            <figure>
+                <img src="images/photo-1648134859182-98df6e93ef58.avif" alt="Captura del proyecto 1">
+                <figcaption>Aplicación web de tareas</figcaption>
+            </figure>
+            <p>Una aplicación para gestionar tareas diarias.</p>
+        </article>
+
+        <article>
+            <h3>Proyecto 2</h3>
+            <figure>
+                <img src="images/istockphoto-1494477239-2048x2048.jpg" alt="Captura del proyecto 2">
+                <figcaption>Landing page moderna</figcaption>
+            </figure>
+            <p>Diseño de una página moderna y responsiva.</p>
+        </article>
+
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+        </ul>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <h2>Contacto</h2>
+
+        <form id="contact-form">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Correo:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        <p id="form-message"></p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 Mi Portafolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
